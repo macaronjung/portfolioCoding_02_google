@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>google</title>
+
+  <!-- link -> 하단에 위치 -> 우선순위가 높아짐 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>
+    <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+  </h1>
+  <!-- get -> 주소창에 정보를 포함하여 정보 전송 -->
+  <form action="https://www.google.com/search" method="get">
+    <!-- mx-auto -> 가운데 정렬 / mt-5 -> 간격 5 자동설정 -->
+    <div class="mx-auto mt-5 search-bar input-group mb-3">
+      <!-- rounded-pill -> border-radius -->
+      <input name="q" type="text" class="rounded-pill form-control" placeholder="Google 검색 또는 URL 입력" aria-label="Recipient's username" aria-describedby="button-addon2">
+    </div><!-- mb-3 -->
+  </form>
+</body>
+</html>
